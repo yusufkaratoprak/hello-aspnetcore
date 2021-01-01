@@ -37,5 +37,7 @@ stages:
         containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
           $(tag)
-    - task: PublishBuildArtifacts@1
-  
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: $(System.DefaultWorkingDirectory)/bin/hello-aspnetcore
+        artifactName: hello-aspnetcore
