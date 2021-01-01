@@ -46,8 +46,8 @@ stages:
       inputs:
         targetType: Inline
         script: |
-          Write-Host "$(Build.ArtifactStagingDirectory)"
-          Write-Host "$(System.DefaultWorkingDirectory)"
-          Write-Host "$(System.ArtifactsDirectory)"
-          Write-Host "$(Pipeline.Workspace)"
-          Write-Host "$(System.ArtifactsDirectory)"
+            Write-Host "$(Build.ArtifactStagingDirectory)"
+            Write-Host "$(System.DefaultWorkingDirectory)"
+            Write-Host "$(System.ArtifactsDirectory)"
+            Write-Host "$(Pipeline.Workspace)"
+            Write-Host "$(System.ArtifactsDirectory)"
