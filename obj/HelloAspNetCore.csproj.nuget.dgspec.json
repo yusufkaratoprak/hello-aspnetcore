@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\playground\\julio\\HelloAspNetCore\\HelloAspNetCore.csproj": {}
+    "C:\\Projects\\playground\\yusuf\\hello-aspnetcore\\HelloAspNetCore.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\playground\\julio\\HelloAspNetCore\\HelloAspNetCore.csproj": {
+    "C:\\Projects\\playground\\yusuf\\hello-aspnetcore\\HelloAspNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\playground\\julio\\HelloAspNetCore\\HelloAspNetCore.csproj",
+        "projectUniqueName": "C:\\Projects\\playground\\yusuf\\hello-aspnetcore\\HelloAspNetCore.csproj",
         "projectName": "HelloAspNetCore",
-        "projectPath": "C:\\Projects\\playground\\julio\\HelloAspNetCore\\HelloAspNetCore.csproj",
+        "projectPath": "C:\\Projects\\playground\\yusuf\\hello-aspnetcore\\HelloAspNetCore.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\playground\\julio\\HelloAspNetCore\\obj\\",
+        "outputPath": "C:\\Projects\\playground\\yusuf\\hello-aspnetcore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

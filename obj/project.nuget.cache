@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7IDm1qOoUfrapDl/vcBfI3ErVJX+vVazUmJUEVtS+M7wJIzIJ55vxbLWu3Pbhh/QQw2mKTTEwOnIWnWEWPxsKg==",
+  "dgSpecHash": "IRyV301AuZzwJ3jsrb0vOXwDzkr8J4Rd7FcR80HHe0/lswhHGSrBQI8Vx+JVJywGMeNFAeLPCWzgtsDBAGxbVA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\playground\\julio\\HelloAspNetCore\\HelloAspNetCore.csproj",
+  "projectFilePath": "C:\\Projects\\playground\\yusuf\\hello-aspnetcore\\HelloAspNetCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
