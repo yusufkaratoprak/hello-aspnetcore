@@ -37,10 +37,13 @@ stages:
         containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
           $(tag)
-    - task: PublishBuildArtifacts@1
+    - download: none
+    - task: DownloadPipelineArtifact@2
+      displayName: 'Download Build Artifacts'
       inputs:
-        pathToPublish: $(Build.ArtifactStagingDirectory)
-        artifactName: MyBuildOutputs
+        patterns: '**/*.zip'
+        path: '$(Build.ArtifactStagingDirectory)'
+
     - task: PowerShell@2
       displayName: 'Degug parameters'
       inputs:
