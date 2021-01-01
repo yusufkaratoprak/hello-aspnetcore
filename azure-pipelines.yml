@@ -39,5 +39,5 @@ stages:
           $(tag)
     - task: PublishPipelineArtifact@1
       inputs:
-        targetPath: $(System.DefaultWorkingDirectory)/bin/hello-aspnetcore
-        artifactName: hello-aspnetcore
+        targetPath: $(Build.ArtifactStagingDirectory)
+        
