@@ -41,4 +41,13 @@ stages:
       inputs:
         pathToPublish: $(Build.ArtifactStagingDirectory)
         artifactName: MyBuildOutputs
-        
+    - task: PowerShell@2
+      displayName: 'Degug parameters'
+      inputs:
+        targetType: Inline
+        script: |
+          Write-Host "$(Build.ArtifactStagingDirectory)"
+          Write-Host "$(System.DefaultWorkingDirectory)"
+          Write-Host "$(System.ArtifactsDirectory)"
+          Write-Host "$(Pipeline.Workspace)"
+          Write-Host "$(System.ArtifactsDirectory)"
